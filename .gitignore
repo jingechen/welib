@@ -21,4 +21,7 @@ _*
 *.pdf
 *Copy.py
 tags
+.git
+.idea
+venv
 

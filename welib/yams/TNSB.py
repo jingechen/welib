@@ -159,8 +159,8 @@ class Structure():
         if s.main_axis=='x':
             raise NotImplementedError('Main axis along x')
 
-        rhoN_x = s.r_NGrna_inN[0,0]
-        rhoN_z = s.r_NGrna_inN[2,0]
+        rhoN_x = s.r_NGrna_inN[0] #[0,0]
+        rhoN_z = s.r_NGrna_inN[2]  #[2,0]
         rNR_x  = s.r_NR_inN[0,0]
         rNR_z  = s.r_NR_inN[2,0]
         g      = s.gravity

@@ -327,7 +327,7 @@ class KalmanFilterTN(KalmanFilter):
             if scaleByMean:
                 M_sim+=-np.mean(KF.M_sim[i])+np.mean(KF.M_ref[i])
             
-            ax.plot (KF.time, KF.M_ref[i], 'k-', color='k',       label='Reference' , lw=1)
+            ax.plot (KF.time, KF.M_ref[i], '-', color='k',       label='Reference' , lw=1)
             ax.plot (KF.time,    M_sim   , '--', color=COLRS[i],label='Estimation', lw=0.8)
             ax.set_ylabel('My z={:.1f}'.format(z))
             ax.tick_params(direction='in')

@@ -2,10 +2,10 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-import weio # https://github.com/ebranlard/weio
+from welib import weio # https://github.com/ebranlard/weio
 
 # Local 
-from wtDigiTwin.ws_estimator.tabulated import TabulatedWSEstimator
+from welib.ws_estimator.tabulated import TabulatedWSEstimator
 
 IStudy=[1,3]
 

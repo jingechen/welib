@@ -1,7 +1,7 @@
 import numpy as np
 import os
-import weio # https://github.com/ebranlard/weio
-import wtDigiTwin.fast.fastlib as fastlib # latest fastlib is found at https://github.com/ebranlard/welib
+from welib import weio # https://github.com/ebranlard/weio
+from welib.fast import fastlib as fastlib # latest fastlib is found at https://github.com/ebranlard/welib
 
 def CPLambda():
     """ Determine the CP-CT Lambda Pitch matrices of a turbine.

@@ -141,7 +141,7 @@ def main():
     return KF
 
 if __name__ == '__main__':
-    main()
+    KF = main()
     KF.print_sigmas()
     print(KF)
     plt.show()
